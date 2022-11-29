@@ -8,7 +8,7 @@ The core will be made compatible with the OpenHW Group OBI protocol, it will use
 
 # Ibex RISC-V Core
 
-Ibex is a production-quality open source source 32-bit RISC-V CPU core written in
+Ibex is a production-quality open source 32-bit RISC-V CPU core written in
 SystemVerilog. The CPU core is heavily parametrizable and well suited for
 embedded control applications. Ibex is being extensively verified and has
 seen multiple tape-outs. Ibex supports the Integer (I) or Embedded (E),
