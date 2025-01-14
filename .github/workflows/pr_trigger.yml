@@ -10,7 +10,7 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Copy event file
         run: cp "$GITHUB_EVENT_PATH" ./event.json
 
@@ -19,7 +19,7 @@ jobs:
       # so we just save the file needed to do the review
       # in a context with proper access rights
       - name: Upload event file as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: event.json
           path: event.json
